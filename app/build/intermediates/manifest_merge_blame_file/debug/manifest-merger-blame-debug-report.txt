@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.imagegallery"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:5:5-80
+11-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:7:5-66
+13-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:8:5-79
+14-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:9:5-76
+15-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:9:22-73
+16
+17    <application
+17-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:12:5-32:19
+18        android:allowBackup="true"
+18-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:13:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.1] /home/adminchik/.gradle/caches/transforms-2/files-2.1/b6ec1ca1a8c0895a5a3aaceaa6bb4b20/core-1.0.1/AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:14:9-43
+22        android:label="@string/app_name"
+22-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:15:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:16:9-54
+24        android:supportsRtl="true"
+24-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:17:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:18:9-40
+27        <activity android:name="com.example.imagegallery.MainActivity" >
+27-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:19:9-25:20
+27-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:19:19-47
+28            <intent-filter>
+28-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:20:13-24:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:21:17-69
+29-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:23:17-77
+31-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:23:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:27:9-28:61
+35            android:name="com.example.imagegallery.AlbumActivity"
+35-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:27:19-48
+36            android:configChanges="orientation|screenSize" />
+36-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:28:13-59
+37        <activity
+37-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:30:9-31:61
+38            android:name="com.example.imagegallery.GalleryPreview"
+38-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:30:19-49
+39            android:configChanges="orientation|screenSize" />
+39-->/home/adminchik/AndroidStudioProjects/ImageGallery/app/src/main/AndroidManifest.xml:31:13-59
+40        <activity
+40-->[com.karumi:dexter:5.0.0] /home/adminchik/.gradle/caches/transforms-2/files-2.1/6dc52c2c2aa4a34643c8ff1292abdfc4/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
+41            android:name="com.karumi.dexter.DexterActivity"
+41-->[com.karumi:dexter:5.0.0] /home/adminchik/.gradle/caches/transforms-2/files-2.1/6dc52c2c2aa4a34643c8ff1292abdfc4/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
+42            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+42-->[com.karumi:dexter:5.0.0] /home/adminchik/.gradle/caches/transforms-2/files-2.1/6dc52c2c2aa4a34643c8ff1292abdfc4/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
+43
+44        <provider
+44-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/adminchik/.gradle/caches/transforms-2/files-2.1/05f7d65effd82c0fbfeab387160ed6d5/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+45            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/adminchik/.gradle/caches/transforms-2/files-2.1/05f7d65effd82c0fbfeab387160ed6d5/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+46            android:authorities="com.example.imagegallery.lifecycle-process"
+46-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/adminchik/.gradle/caches/transforms-2/files-2.1/05f7d65effd82c0fbfeab387160ed6d5/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+47            android:exported="false"
+47-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/adminchik/.gradle/caches/transforms-2/files-2.1/05f7d65effd82c0fbfeab387160ed6d5/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+48            android:multiprocess="true" />
+48-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/adminchik/.gradle/caches/transforms-2/files-2.1/05f7d65effd82c0fbfeab387160ed6d5/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+49    </application>
+50
+51</manifest>
