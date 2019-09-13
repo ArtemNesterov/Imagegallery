@@ -9,9 +9,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.provider.MediaStore;
 import android.util.DisplayMetrics;
-
 import androidx.core.app.ActivityCompat;
-
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;

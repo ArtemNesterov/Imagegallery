@@ -21,5 +21,11 @@
                     app:zoomage_minScale="0.6"
                     app:zoomage_maxScale="8" />
 
+    <Button
+        android:id="@+id/loadImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="загрузить"/>
+
 
 </LinearLayout>

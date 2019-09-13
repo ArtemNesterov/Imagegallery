@@ -7,11 +7,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.bumptech.glide.Glide;
 import com.example.imagegallery.R;
 import com.example.imagegallery.helper.Function;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -59,7 +57,7 @@ public class AlbumAdapter extends BaseAdapter {
             holder.gallery_count.setText(song.get(Function.KEY_COUNT));
 
             Glide.with(activity)
-                    .load(new File(song.get(Function.KEY_PATH))) // Uri of the picture
+                    .load(new File(song.get(Function.KEY_PATH)))
                     .into(holder.galleryImage);
 
 
